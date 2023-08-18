@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
+// function color and colorless is just a style.You don't have to use it.(By ARIES).
 function color(){
     document.getElementById("color").style.backgroundColor="black";
     document.getElementById("color").style.color="white";
