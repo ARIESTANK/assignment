@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const password1 = document.getElementById('Password').value;
         const repassword1 = document.getElementById('Repassword').value;
 
-        if (nameset !== name1 || emailset !== email1 || password1 !== repassword1) {
+        if (nameset != name1 || emailset != email1 || password1 != repassword1) {
             alert("Something Went Wrong");
         } else {
             alert("Successful");
